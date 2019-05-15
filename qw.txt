@@ -1,0 +1,8 @@
+			var client = new ReminderStorageWebApiClient("http://localhost:60486");
+			var reminderItem = new ReminderItem
+			{
+				ContactId = "TestContact",
+				Date = DateTimeOffset.Now,
+
+			};
+			client.Add(reminderItem);

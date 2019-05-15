@@ -31,7 +31,8 @@ namespace Reminder.Storage.Core
 		/// <summary>
 		/// Gets the single item by its ID.
 		/// </summary>
-		//ReminderItem Get(Guid id);
+		ReminderItem Get(Guid id);
+		//void Add(object toReminderStatus);
 
 		/// <summary>
 		/// Gets the list of the items with pagination.
